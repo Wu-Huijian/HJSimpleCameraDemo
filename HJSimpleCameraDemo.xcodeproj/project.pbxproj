@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90EA0D431C589DB0004D473D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D421C589DB0004D473D /* main.m */; };
+		90EA0D461C589DB0004D473D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D451C589DB0004D473D /* AppDelegate.m */; };
+		90EA0D491C589DB0004D473D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D481C589DB0004D473D /* ViewController.m */; };
+		90EA0D4E1C589DB0004D473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EA0D4D1C589DB0004D473D /* Assets.xcassets */; };
+		90EA0D5C1C589DB0004D473D /* HJSimpleCameraDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D5B1C589DB0004D473D /* HJSimpleCameraDemoTests.m */; };
+		90EA0D7F1C589E2F004D473D /* HJCaptureCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D691C589E2F004D473D /* HJCaptureCameraController.m */; };
+		90EA0D801C589E2F004D473D /* HJEditPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D6B1C589E2F004D473D /* HJEditPicViewController.m */; };
+		90EA0D811C589E2F004D473D /* HJNSProblemDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D6D1C589E2F004D473D /* HJNSProblemDetailVC.m */; };
+		90EA0D821C589E2F004D473D /* HJCaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D701C589E2F004D473D /* HJCaptureSessionManager.m */; };
+		90EA0D831C589E2F004D473D /* HJCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D721C589E2F004D473D /* HJCommon.m */; };
+		90EA0D851C589E2F004D473D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D781C589E2F004D473D /* UIView+Extension.m */; };
+		90EA0D861C589E2F004D473D /* HJDrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D7B1C589E2F004D473D /* HJDrawRectView.m */; };
+		90EA0D871C589E2F004D473D /* HJEditPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D7D1C589E2F004D473D /* HJEditPictureView.m */; };
+		90EA0D881C589E2F004D473D /* whj.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90EA0D7E1C589E2F004D473D /* whj.bundle */; };
+		90EA0D8C1C58A260004D473D /* UIImage+HJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EA0D8B1C58A260004D473D /* UIImage+HJExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90EA0D581C589DB0004D473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90EA0D361C589DB0004D473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EA0D3D1C589DB0004D473D;
+			remoteInfo = HJSimpleCameraDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90EA0D3E1C589DB0004D473D /* HJSimpleCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJSimpleCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EA0D421C589DB0004D473D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90EA0D441C589DB0004D473D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90EA0D451C589DB0004D473D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90EA0D471C589DB0004D473D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90EA0D481C589DB0004D473D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90EA0D4D1C589DB0004D473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90EA0D521C589DB0004D473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EA0D571C589DB0004D473D /* HJSimpleCameraDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJSimpleCameraDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EA0D5B1C589DB0004D473D /* HJSimpleCameraDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJSimpleCameraDemoTests.m; sourceTree = "<group>"; };
+		90EA0D5D1C589DB0004D473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EA0D681C589E2F004D473D /* HJCaptureCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCaptureCameraController.h; sourceTree = "<group>"; };
+		90EA0D691C589E2F004D473D /* HJCaptureCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCaptureCameraController.m; sourceTree = "<group>"; };
+		90EA0D6A1C589E2F004D473D /* HJEditPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJEditPicViewController.h; sourceTree = "<group>"; };
+		90EA0D6B1C589E2F004D473D /* HJEditPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJEditPicViewController.m; sourceTree = "<group>"; };
+		90EA0D6C1C589E2F004D473D /* HJNSProblemDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJNSProblemDetailVC.h; sourceTree = "<group>"; };
+		90EA0D6D1C589E2F004D473D /* HJNSProblemDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJNSProblemDetailVC.m; sourceTree = "<group>"; };
+		90EA0D6F1C589E2F004D473D /* HJCaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCaptureSessionManager.h; sourceTree = "<group>"; };
+		90EA0D701C589E2F004D473D /* HJCaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCaptureSessionManager.m; sourceTree = "<group>"; };
+		90EA0D711C589E2F004D473D /* HJCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCommon.h; sourceTree = "<group>"; };
+		90EA0D721C589E2F004D473D /* HJCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCommon.m; sourceTree = "<group>"; };
+		90EA0D731C589E2F004D473D /* HJDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDefines.h; sourceTree = "<group>"; };
+		90EA0D771C589E2F004D473D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		90EA0D781C589E2F004D473D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		90EA0D7A1C589E2F004D473D /* HJDrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDrawRectView.h; sourceTree = "<group>"; };
+		90EA0D7B1C589E2F004D473D /* HJDrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDrawRectView.m; sourceTree = "<group>"; };
+		90EA0D7C1C589E2F004D473D /* HJEditPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJEditPictureView.h; sourceTree = "<group>"; };
+		90EA0D7D1C589E2F004D473D /* HJEditPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJEditPictureView.m; sourceTree = "<group>"; };
+		90EA0D7E1C589E2F004D473D /* whj.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = whj.bundle; sourceTree = "<group>"; };
+		90EA0D891C589EA6004D473D /* SimpleCamera.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCamera.pch; sourceTree = "<group>"; };
+		90EA0D8A1C58A260004D473D /* UIImage+HJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HJExtension.h"; sourceTree = "<group>"; };
+		90EA0D8B1C58A260004D473D /* UIImage+HJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HJExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90EA0D3B1C589DB0004D473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EA0D541C589DB0004D473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90EA0D351C589DB0004D473D = {
+			isa = PBXGroup;
+			children = (
+				90EA0D401C589DB0004D473D /* HJSimpleCameraDemo */,
+				90EA0D5A1C589DB0004D473D /* HJSimpleCameraDemoTests */,
+				90EA0D3F1C589DB0004D473D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90EA0D3F1C589DB0004D473D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90EA0D3E1C589DB0004D473D /* HJSimpleCameraDemo.app */,
+				90EA0D571C589DB0004D473D /* HJSimpleCameraDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90EA0D401C589DB0004D473D /* HJSimpleCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				90EA0D441C589DB0004D473D /* AppDelegate.h */,
+				90EA0D451C589DB0004D473D /* AppDelegate.m */,
+				90EA0D471C589DB0004D473D /* ViewController.h */,
+				90EA0D481C589DB0004D473D /* ViewController.m */,
+				90EA0D671C589E2F004D473D /* Controller */,
+				90EA0D6E1C589E2F004D473D /* Other */,
+				90EA0D761C589E2F004D473D /* Vender */,
+				90EA0D791C589E2F004D473D /* View */,
+				90EA0D7E1C589E2F004D473D /* whj.bundle */,
+				90EA0D411C589DB0004D473D /* Supporting Files */,
+			);
+			path = HJSimpleCameraDemo;
+			sourceTree = "<group>";
+		};
+		90EA0D411C589DB0004D473D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90EA0D4D1C589DB0004D473D /* Assets.xcassets */,
+				90EA0D521C589DB0004D473D /* Info.plist */,
+				90EA0D891C589EA6004D473D /* SimpleCamera.pch */,
+				90EA0D421C589DB0004D473D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90EA0D5A1C589DB0004D473D /* HJSimpleCameraDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				90EA0D5B1C589DB0004D473D /* HJSimpleCameraDemoTests.m */,
+				90EA0D5D1C589DB0004D473D /* Info.plist */,
+			);
+			path = HJSimpleCameraDemoTests;
+			sourceTree = "<group>";
+		};
+		90EA0D671C589E2F004D473D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90EA0D681C589E2F004D473D /* HJCaptureCameraController.h */,
+				90EA0D691C589E2F004D473D /* HJCaptureCameraController.m */,
+				90EA0D6A1C589E2F004D473D /* HJEditPicViewController.h */,
+				90EA0D6B1C589E2F004D473D /* HJEditPicViewController.m */,
+				90EA0D6C1C589E2F004D473D /* HJNSProblemDetailVC.h */,
+				90EA0D6D1C589E2F004D473D /* HJNSProblemDetailVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90EA0D6E1C589E2F004D473D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				90EA0D6F1C589E2F004D473D /* HJCaptureSessionManager.h */,
+				90EA0D701C589E2F004D473D /* HJCaptureSessionManager.m */,
+				90EA0D711C589E2F004D473D /* HJCommon.h */,
+				90EA0D721C589E2F004D473D /* HJCommon.m */,
+				90EA0D731C589E2F004D473D /* HJDefines.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		90EA0D761C589E2F004D473D /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				90EA0D8A1C58A260004D473D /* UIImage+HJExtension.h */,
+				90EA0D8B1C58A260004D473D /* UIImage+HJExtension.m */,
+				90EA0D771C589E2F004D473D /* UIView+Extension.h */,
+				90EA0D781C589E2F004D473D /* UIView+Extension.m */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		90EA0D791C589E2F004D473D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90EA0D7A1C589E2F004D473D /* HJDrawRectView.h */,
+				90EA0D7B1C589E2F004D473D /* HJDrawRectView.m */,
+				90EA0D7C1C589E2F004D473D /* HJEditPictureView.h */,
+				90EA0D7D1C589E2F004D473D /* HJEditPictureView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90EA0D3D1C589DB0004D473D /* HJSimpleCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EA0D601C589DB0004D473D /* Build configuration list for PBXNativeTarget "HJSimpleCameraDemo" */;
+			buildPhases = (
+				90EA0D3A1C589DB0004D473D /* Sources */,
+				90EA0D3B1C589DB0004D473D /* Frameworks */,
+				90EA0D3C1C589DB0004D473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJSimpleCameraDemo;
+			productName = HJSimpleCameraDemo;
+			productReference = 90EA0D3E1C589DB0004D473D /* HJSimpleCameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90EA0D561C589DB0004D473D /* HJSimpleCameraDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EA0D631C589DB0004D473D /* Build configuration list for PBXNativeTarget "HJSimpleCameraDemoTests" */;
+			buildPhases = (
+				90EA0D531C589DB0004D473D /* Sources */,
+				90EA0D541C589DB0004D473D /* Frameworks */,
+				90EA0D551C589DB0004D473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EA0D591C589DB0004D473D /* PBXTargetDependency */,
+			);
+			name = HJSimpleCameraDemoTests;
+			productName = HJSimpleCameraDemoTests;
+			productReference = 90EA0D571C589DB0004D473D /* HJSimpleCameraDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90EA0D361C589DB0004D473D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JYT;
+				TargetAttributes = {
+					90EA0D3D1C589DB0004D473D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					90EA0D561C589DB0004D473D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 90EA0D3D1C589DB0004D473D;
+					};
+				};
+			};
+			buildConfigurationList = 90EA0D391C589DB0004D473D /* Build configuration list for PBXProject "HJSimpleCameraDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90EA0D351C589DB0004D473D;
+			productRefGroup = 90EA0D3F1C589DB0004D473D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90EA0D3D1C589DB0004D473D /* HJSimpleCameraDemo */,
+				90EA0D561C589DB0004D473D /* HJSimpleCameraDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90EA0D3C1C589DB0004D473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EA0D4E1C589DB0004D473D /* Assets.xcassets in Resources */,
+				90EA0D881C589E2F004D473D /* whj.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EA0D551C589DB0004D473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90EA0D3A1C589DB0004D473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EA0D851C589E2F004D473D /* UIView+Extension.m in Sources */,
+				90EA0D831C589E2F004D473D /* HJCommon.m in Sources */,
+				90EA0D8C1C58A260004D473D /* UIImage+HJExtension.m in Sources */,
+				90EA0D861C589E2F004D473D /* HJDrawRectView.m in Sources */,
+				90EA0D491C589DB0004D473D /* ViewController.m in Sources */,
+				90EA0D871C589E2F004D473D /* HJEditPictureView.m in Sources */,
+				90EA0D7F1C589E2F004D473D /* HJCaptureCameraController.m in Sources */,
+				90EA0D811C589E2F004D473D /* HJNSProblemDetailVC.m in Sources */,
+				90EA0D801C589E2F004D473D /* HJEditPicViewController.m in Sources */,
+				90EA0D461C589DB0004D473D /* AppDelegate.m in Sources */,
+				90EA0D431C589DB0004D473D /* main.m in Sources */,
+				90EA0D821C589E2F004D473D /* HJCaptureSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EA0D531C589DB0004D473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EA0D5C1C589DB0004D473D /* HJSimpleCameraDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90EA0D591C589DB0004D473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90EA0D3D1C589DB0004D473D /* HJSimpleCameraDemo */;
+			targetProxy = 90EA0D581C589DB0004D473D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		90EA0D5E1C589DB0004D473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90EA0D5F1C589DB0004D473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90EA0D611C589DB0004D473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HJSimpleCameraDemo/SimpleCamera.pch";
+				INFOPLIST_FILE = HJSimpleCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whj.HJSimpleCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90EA0D621C589DB0004D473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HJSimpleCameraDemo/SimpleCamera.pch";
+				INFOPLIST_FILE = HJSimpleCameraDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whj.HJSimpleCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90EA0D641C589DB0004D473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJSimpleCameraDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyt.HJSimpleCameraDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJSimpleCameraDemo.app/HJSimpleCameraDemo";
+			};
+			name = Debug;
+		};
+		90EA0D651C589DB0004D473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJSimpleCameraDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyt.HJSimpleCameraDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJSimpleCameraDemo.app/HJSimpleCameraDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90EA0D391C589DB0004D473D /* Build configuration list for PBXProject "HJSimpleCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EA0D5E1C589DB0004D473D /* Debug */,
+				90EA0D5F1C589DB0004D473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EA0D601C589DB0004D473D /* Build configuration list for PBXNativeTarget "HJSimpleCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EA0D611C589DB0004D473D /* Debug */,
+				90EA0D621C589DB0004D473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90EA0D631C589DB0004D473D /* Build configuration list for PBXNativeTarget "HJSimpleCameraDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EA0D641C589DB0004D473D /* Debug */,
+				90EA0D651C589DB0004D473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90EA0D361C589DB0004D473D /* Project object */;
+}

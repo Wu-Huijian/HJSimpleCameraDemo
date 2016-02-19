@@ -1,0 +1,19 @@
+//
+//  SimpleCamera.pch
+//  HJSimpleCameraDemo
+//
+//  Created by WHJ on 16/1/27.
+//  Copyright © 2016年 WHJ. All rights reserved.
+//
+
+#ifndef SimpleCamera_pch
+#define SimpleCamera_pch
+
+
+#import "UIView+Extension.h"
+#import "UIImage+HJExtension.h"
+#import "HJDefines.h"
+
+
+
+#endif /* SimpleCamera_pch */
